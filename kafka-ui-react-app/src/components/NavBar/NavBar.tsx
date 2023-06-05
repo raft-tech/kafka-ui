@@ -88,7 +88,11 @@ const NavBar: React.FC<Props> = ({ onBurgerClick, setDarkMode }) => {
   };
 
   return (
-    <S.Navbar role="navigation" aria-label="Page Header">
+    <S.Navbar
+      role="navigation"
+      aria-label="Page Header"
+      style={{ display: 'none' }}
+    >
       <S.NavbarBrand>
         <S.NavbarBrand>
           <S.NavbarBurger

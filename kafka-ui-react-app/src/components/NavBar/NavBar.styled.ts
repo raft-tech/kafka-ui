@@ -133,7 +133,7 @@ export const Hyperlink = styled(Link)(
     margin: 0;
     padding: 0.5rem 0.75rem;
 
-    font-family: Inter, sans-serif;
+    font-family: Manrope, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;

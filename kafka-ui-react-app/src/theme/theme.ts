@@ -81,7 +81,7 @@ const baseTheme = {
     },
     h4: Colors.neutral[90],
     base: {
-      fontFamily: 'Inter, sans-serif',
+      fontFamily: 'Manrope, sans-serif',
       fontStyle: 'normal',
       fontWeight: 500,
       color: Colors.neutral[100],
@@ -122,9 +122,9 @@ const baseTheme = {
   },
   layout: {
     minWidth: '1200px',
-    navBarWidth: '201px',
-    navBarHeight: '51px',
-    rightSidebarWidth: '70vw',
+    // navBarWidth: '201px',
+    // navBarHeight: '51px',
+    // rightSidebarWidth: '70vw',
     filtersSidebarWidth: '300px',
 
     stuffColor: Colors.neutral[5],

@@ -23,7 +23,11 @@ const PageContainer: React.FC<
     <>
       <NavBar onBurgerClick={toggle} setDarkMode={setDarkMode} />
       <S.Container>
-        <S.Sidebar aria-label="Sidebar" $visible={isSidebarVisible}>
+        <S.Sidebar
+          aria-label="Sidebar"
+          $visible={isSidebarVisible}
+          // style={{ display: 'none' }}
+        >
           <Nav />
         </S.Sidebar>
         <S.Overlay
@@ -33,6 +37,7 @@ const PageContainer: React.FC<
           tabIndex={-1}
           aria-hidden="true"
           aria-label="Overlay"
+          style={{ display: 'none' }}
         />
         {children}
       </S.Container>
